@@ -389,9 +389,14 @@ header {
 /*endregion*/
 /*region Cities*/
 .box img {
-  width: 100%;
-  height: auto;
+  height: 180px;
+  width: auto;
+  align-content: center;
   margin-bottom: 50px;
+  text-align: center;
+}
+.section-cities h3{
+  text-align: center;
 }
 
 .city-feature {
