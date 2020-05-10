@@ -387,15 +387,37 @@ header {
 
 }
 /*endregion*/
+
+/*region Practice Areas*/
+.section-practice-areas{
+
+}
+.section-practice-areas ul li{
+  list-style: none;
+}
+.section-practice-areas i{
+  display: block;
+  margin: auto;
+}
+.section-practice-areas h3{
+  text-align: center;
+  font-size: 80%;
+}
+/*endregion*/
+
 /*region Cities*/
+.section-countries {
+  background-color: #eee;
+}
 .box img {
+  display:block;
   height: 180px;
   width: auto;
   align-content: center;
-  margin-bottom: 50px;
+  margin: 0 auto 50px auto;
   text-align: center;
 }
-.section-cities h3{
+.section-countries h3{
   text-align: center;
 }
 

@@ -33,22 +33,56 @@ fulfilling our commitment.
 
 
 AREAS OF PRACTICE
+
+ion-gear-a
 Corporate and Commercial Law
+
+ion-lightbulb
 Intellectual Property Law
+
+ion-lock-combination
 Cyber Law
+
+ion-home
 Real Estate- Due Diligence
+
+ion-map
 Immigration Law
+
+ion-earth
 International Law
+
+ion-cash
 Taxation Laws
+
+ion-bag
 Consumer Protection Law
+
+ion-umbrella
 Insurance
+
+ion-erlenmeyer-flask
 Technology
+
+ion-plane
 Aviation
+
 Criminal Law
+ion-person-stalker
+
+ion-person
 Civil Law
+
+ion-videocamera
 Media, Sport and Entertainment
+
+ion-briefcase
 Litigations
+
+ion-chatboxes
 Arbitrations- Domestic and International
+
+ion-person-stalker
 Background Check
 
 
