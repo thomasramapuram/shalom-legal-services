@@ -11,34 +11,39 @@
 </head>
 <body>
 <header>
-    <nav class="sticky">
+    <nav>
         <div class="row">
             <img alt="Shalom Legal Services Logo" class="logo"
-                 src="resources/images/SLS_without_text_circle_path_stroke.svg">
+                 src="resources/images/SLS_without_text_circle_path_fill.svg">
             <img alt="Shalom Legal Services Logo" class="logo-fill"
                  src="resources/images/SLS_without_text_circle_path_fill.svg">
-            <ul class="main-nav">
+            <ul class="main-nav js--main-nav">
                 <li><a href="#profile">Profile</a></li>
                 <li><a href="#pro-bono">Pro Bono</a></li>
                 <li><a href="#practice">Practice</a></li>
                 <li><a href="#countries">Presence</a></li>
                 <li><a href="#contact-us">Contact Us</a></li>
             </ul>
+            <a class="mobile-nav-icon js--nav-icon"><i
+                    class="ion-navicon-round"></i></a>
         </div>
     </nav>
     <div class="hero-text-box">
         <h1>Shalom Legal Services<br>Attorneys and International Legal
             Consultants</h1>
-        <a class="btn btn-full" href="#contact-us">Contact Us</a>
-        <a class="btn btn-ghost" href="#profile">Our Profile</a>
+        <a class="btn btn-full js--scroll-to-plans" href="#contact-us">Contact
+            Us</a>
+        <a class="btn btn-ghost js--scroll-to-start" href="#profile">Our
+            Profile</a>
     </div>
 </header>
-<section class="section-our-profile" id="profile">
+<section class="section-our-profile js--section-features" id="profile">
     <div class="row">
         <h2>Our Profile.</h2>
         <h3>Philosophy</h3>
         <p class="long-copy">
-            Our principle goal is to be an instrument of GOD and provide “Peaceful Solutions” (SHALOM) to our client’s complex legal needs.
+            Our principle goal is to be an instrument of GOD and provide
+            “Peaceful Solutions” (SHALOM) to our client’s complex legal needs.
         </p>
         <h3>Vision</h3>
         <p class="long-copy">
@@ -68,12 +73,15 @@
         <ul class="list-pro-bono">
             <li>To assist minors and women, molested or harassed.</li>
             <li>To staff and support individuals or organizations that cannot
-                afford to engage the services of counsel.</li>
+                afford to engage the services of counsel.
+            </li>
 
             <li>To represent and counsel undertrials and prisoners who have been
-                falsely charged.</li>
+                falsely charged.
+            </li>
             <li>To train prisoners in skills that can provide them with self
-                employment and improve/better their lives.</li>
+                employment and improve/better their lives.
+            </li>
         </ul>
         <p class="long-copy">
             We are ever grateful to GOD for providing us with an advisory
@@ -270,7 +278,7 @@
         </div>
     </div>
 </section>
-<section class="section-form" id="contact-us">
+<section class="section-form  js--section-plans" id="contact-us">
     <div class="row">
         <h2>We're happy to hear from you</h2>
     </div>
@@ -348,10 +356,11 @@
         </p>
     </div>
 </footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+<script src="vendors/scripts/jquery.waypoints.min.js"></script>
 <script src="resources/js/script.js"></script>
 </body>
 </html>
